@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>外边距的设置</title>
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        div {
+            width: 100px;
+            height: 60px;
+        }
+        #box1 {
+            background: #00F;
+            margin-bottom: 50px;
+        }
+        #box2 {
+            background: #F90;
+            margin-top: 30px;
+        }
+        #img1 {
+            margin-right: 100px;
+            margin-top: 50px;
+        }
+        #img2 {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <!-- 上、下外边距合并，左、右外边距累加 -->
+    <img src="images/timg2.jpg" width="150" height="199" id="img1">
+    <img src="images/timg1.jpg" width="150" height="139" id="img2">
+</body>
+</html>

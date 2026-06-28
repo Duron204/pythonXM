@@ -1,0 +1,631 @@
+序号,画面标识,结果,位置,置信度
+0,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/InsectPest_SIXU_A01254.jpg,菜粉蝶,"211,140,444,480",0.94
+1,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media,禾谷缢管蚜,"365,313,574,564",0.90
+2,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media,禾谷缢管蚜,"66,84,428,460",0.87
+3,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media,水泡甲虫,"279,36,509,376",0.95
+4,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media,水泡甲虫,"1,93,587,638",0.81
+5,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media,水泡甲虫,"127,112,312,486",0.94
+6,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media,菜粉蝶,"211,140,444,480",0.94
+7,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media,小菜蛾,"131,47,463,569",0.89
+8,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media,叶网蛾,"209,92,396,625",0.85
+9,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media,茄果螟,"200,179,418,337",0.94
+10,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+11,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+12,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+13,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+14,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+15,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+16,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+17,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+18,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+19,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+20,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+21,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+22,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+23,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+24,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+25,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+26,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+27,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+28,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+29,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"208,134,446,484",0.94
+30,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"200,115,455,502",0.93
+31,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"182,65,478,547",0.87
+32,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"0,5,30,158",0.45
+33,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"138,5,464,638",0.88
+34,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,粉虱,"0,0,634,638",0.91
+35,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"147,1,422,640",0.70
+36,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"188,11,398,639",0.85
+37,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"206,91,394,631",0.86
+38,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+39,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+40,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+41,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+42,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+43,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+44,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+45,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+46,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+47,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+48,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+49,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+50,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"196,91,388,625",0.87
+51,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"154,91,342,626",0.88
+52,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"0,131,91,627",0.35
+53,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,根蛆,"0,115,90,631",0.28
+54,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"435,358,638,542",0.86
+55,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"20,128,438,395",0.73
+56,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"377,315,585,563",0.90
+57,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"83,89,439,458",0.87
+58,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"365,313,574,564",0.90
+59,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"65,83,428,459",0.86
+60,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"365,313,574,564",0.90
+61,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"64,91,427,456",0.86
+62,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"365,313,574,564",0.90
+63,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"64,91,427,456",0.86
+64,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"366,313,574,564",0.90
+65,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"66,83,429,459",0.87
+66,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"366,310,574,565",0.88
+67,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"61,83,429,456",0.83
+68,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,灰象甲,"291,185,418,322",0.51
+69,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"203,184,417,334",0.93
+70,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"202,182,417,336",0.94
+71,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"202,180,418,338",0.95
+72,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,180,419,338",0.95
+73,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,179,419,338",0.95
+74,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,179,419,338",0.95
+75,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+76,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+77,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+78,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+79,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+80,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+81,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+82,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,419,337",0.95
+83,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,179,419,338",0.95
+84,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,178,417,338",0.95
+85,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,174,416,336",0.92
+86,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"199,168,419,342",0.53
+87,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,白粉虱,"2,0,637,638",0.67
+88,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,白粉虱,"7,1,636,638",0.86
+89,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,白粉虱,"201,69,458,612",0.74
+90,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"164,62,464,581",0.79
+91,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"128,50,468,572",0.92
+92,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"133,50,462,578",0.90
+93,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+94,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+95,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+96,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+97,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+98,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+99,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+100,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+101,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+102,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,464,570",0.89
+103,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"131,49,467,578",0.89
+104,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"128,56,464,542",0.42
+105,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"135,111,316,506",0.62
+106,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"130,103,348,492",0.79
+107,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"130,113,308,488",0.91
+108,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"129,113,310,488",0.92
+109,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"128,114,312,487",0.93
+110,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"128,113,311,487",0.94
+111,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,486",0.94
+112,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,486",0.94
+113,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+114,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+115,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+116,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+117,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+118,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+119,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+120,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+121,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+122,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+123,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+124,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+125,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+126,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+127,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,486",0.94
+128,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,486",0.94
+129,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"0,124,89,452",0.83
+130,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"178,265,395,638",0.94
+131,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"75,62,397,492",0.88
+132,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"16,7,475,492",0.85
+133,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,0,586,475",0.90
+134,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,0,633,480",0.71
+135,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"29,50,639,639",0.27
+136,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,20,638,631",0.81
+137,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,2,640,635",0.83
+138,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,1,637,639",0.88
+139,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"3,13,630,639",0.88
+140,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,99,630,635",0.85
+141,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,113,610,635",0.82
+142,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,101,586,638",0.81
+143,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,102,587,638",0.81
+144,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,102,587,638",0.81
+145,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+146,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+147,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+148,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+149,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+150,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+151,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+152,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,102,587,638",0.81
+153,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,106,597,638",0.81
+154,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,116,610,635",0.82
+155,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,91,591,638",0.79
+156,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,107,548,637",0.78
+157,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"3,80,511,637",0.78
+158,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"0,59,454,637",0.77
+159,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,1,515,637",0.77
+160,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"322,36,507,376",0.93
+161,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"0,150,307,637",0.87
+162,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"308,38,507,375",0.95
+163,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"0,226,200,624",0.79
+164,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"305,38,507,376",0.95
+165,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"294,37,509,376",0.95
+166,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,白粉虱,"61,552,204,639",0.41
+167,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"289,37,509,376",0.95
+168,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"283,37,509,376",0.95
+169,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"280,36,509,376",0.95
+170,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+171,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+172,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+173,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+174,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+175,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+176,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+177,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+178,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+179,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+180,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+181,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+182,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+183,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+184,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+185,Camera 0,禾谷缢管蚜,"321,94,528,458",0.91
+186,Camera 0,禾谷缢管蚜,"486,321,601,568",0.86
+187,Camera 0,禾谷缢管蚜,"321,93,528,458",0.91
+188,Camera 0,禾谷缢管蚜,"485,321,601,568",0.86
+189,Camera 0,禾谷缢管蚜,"321,92,528,458",0.91
+190,Camera 0,禾谷缢管蚜,"485,321,601,568",0.86
+191,Camera 0,禾谷缢管蚜,"321,92,528,458",0.91
+192,Camera 0,禾谷缢管蚜,"485,321,601,568",0.86
+193,Camera 0,禾谷缢管蚜,"321,92,528,458",0.91
+194,Camera 0,禾谷缢管蚜,"485,321,601,568",0.86
+195,Camera 0,禾谷缢管蚜,"488,316,600,560",0.90
+196,Camera 0,禾谷缢管蚜,"322,96,527,447",0.89
+197,Camera 0,禾谷缢管蚜,"488,316,600,560",0.90
+198,Camera 0,禾谷缢管蚜,"322,96,527,447",0.89
+199,Camera 0,禾谷缢管蚜,"488,316,600,560",0.90
+200,Camera 0,禾谷缢管蚜,"322,96,527,447",0.89
+201,Camera 0,禾谷缢管蚜,"488,316,600,560",0.90
+202,Camera 0,禾谷缢管蚜,"322,96,527,447",0.89
+203,Camera 0,禾谷缢管蚜,"488,316,600,560",0.90
+204,Camera 0,禾谷缢管蚜,"322,96,527,447",0.89
+205,Camera 0,禾谷缢管蚜,"323,96,526,455",0.91
+206,Camera 0,禾谷缢管蚜,"483,319,599,562",0.88
+207,Camera 0,禾谷缢管蚜,"323,96,526,455",0.91
+208,Camera 0,禾谷缢管蚜,"483,319,599,562",0.88
+209,Camera 0,禾谷缢管蚜,"322,96,526,454",0.90
+210,Camera 0,禾谷缢管蚜,"481,320,599,562",0.87
+211,Camera 0,禾谷缢管蚜,"322,96,526,454",0.90
+212,Camera 0,禾谷缢管蚜,"481,320,599,562",0.87
+213,Camera 0,禾谷缢管蚜,"322,96,526,454",0.90
+214,Camera 0,禾谷缢管蚜,"481,320,599,562",0.87
+215,Camera 0,禾谷缢管蚜,"322,90,522,449",0.89
+216,Camera 0,禾谷缢管蚜,"483,319,599,557",0.88
+217,Camera 0,禾谷缢管蚜,"322,91,522,449",0.89
+218,Camera 0,禾谷缢管蚜,"483,319,599,557",0.88
+219,Camera 0,禾谷缢管蚜,"322,91,522,449",0.89
+220,Camera 0,禾谷缢管蚜,"483,319,599,557",0.88
+221,Camera 0,禾谷缢管蚜,"322,91,522,449",0.89
+222,Camera 0,禾谷缢管蚜,"483,319,599,557",0.88
+223,Camera 0,禾谷缢管蚜,"322,91,522,449",0.89
+224,Camera 0,禾谷缢管蚜,"483,319,599,557",0.88
+225,Camera 0,禾谷缢管蚜,"325,88,533,454",0.89
+226,Camera 0,禾谷缢管蚜,"489,314,600,560",0.88
+227,Camera 0,禾谷缢管蚜,"325,88,533,454",0.89
+228,Camera 0,禾谷缢管蚜,"489,314,600,560",0.88
+229,Camera 0,禾谷缢管蚜,"325,88,533,454",0.89
+230,Camera 0,禾谷缢管蚜,"489,314,600,560",0.88
+231,Camera 0,禾谷缢管蚜,"325,88,533,454",0.89
+232,Camera 0,禾谷缢管蚜,"489,314,600,560",0.88
+233,Camera 0,禾谷缢管蚜,"325,88,534,454",0.89
+234,Camera 0,禾谷缢管蚜,"489,315,601,560",0.88
+235,Camera 0,禾谷缢管蚜,"323,93,540,460",0.90
+236,Camera 0,禾谷缢管蚜,"493,321,604,567",0.88
+237,Camera 0,禾谷缢管蚜,"323,93,540,460",0.90
+238,Camera 0,禾谷缢管蚜,"493,321,604,567",0.88
+239,Camera 0,禾谷缢管蚜,"323,93,540,460",0.90
+240,Camera 0,禾谷缢管蚜,"493,321,604,567",0.88
+241,Camera 0,禾谷缢管蚜,"323,93,540,460",0.90
+242,Camera 0,禾谷缢管蚜,"493,321,604,567",0.88
+243,Camera 0,禾谷缢管蚜,"323,93,540,460",0.90
+244,Camera 0,禾谷缢管蚜,"493,321,604,567",0.88
+245,Camera 0,水泡甲虫,"444,33,567,373",0.92
+246,Camera 0,水泡甲虫,"445,33,567,373",0.92
+247,Camera 0,水泡甲虫,"444,33,567,373",0.92
+248,Camera 0,水泡甲虫,"444,33,567,373",0.92
+249,Camera 0,水泡甲虫,"444,33,567,373",0.92
+250,Camera 0,水泡甲虫,"446,42,567,379",0.92
+251,Camera 0,水泡甲虫,"445,42,567,379",0.92
+252,Camera 0,水泡甲虫,"445,42,567,379",0.92
+253,Camera 0,水泡甲虫,"445,42,567,379",0.92
+254,Camera 0,水泡甲虫,"445,42,567,379",0.92
+255,Camera 0,水泡甲虫,"445,41,567,378",0.92
+256,Camera 0,水泡甲虫,"445,41,567,378",0.92
+257,Camera 0,水泡甲虫,"445,41,567,378",0.92
+258,Camera 0,水泡甲虫,"445,41,567,378",0.92
+259,Camera 0,水泡甲虫,"445,41,567,378",0.92
+260,Camera 0,水泡甲虫,"444,42,565,378",0.93
+261,Camera 0,水泡甲虫,"444,42,565,378",0.93
+262,Camera 0,水泡甲虫,"444,42,565,378",0.93
+263,Camera 0,水泡甲虫,"444,41,565,379",0.93
+264,Camera 0,水泡甲虫,"444,41,565,379",0.93
+265,Camera 0,水泡甲虫,"445,40,567,377",0.92
+266,Camera 0,水泡甲虫,"445,40,567,377",0.92
+267,Camera 0,水泡甲虫,"445,40,567,377",0.92
+268,Camera 0,水泡甲虫,"445,40,567,377",0.92
+269,Camera 0,水泡甲虫,"445,40,567,377",0.92
+270,Camera 0,水泡甲虫,"446,42,568,380",0.92
+271,Camera 0,水泡甲虫,"446,42,568,380",0.92
+272,Camera 0,水泡甲虫,"446,42,568,380",0.92
+273,Camera 0,水泡甲虫,"446,42,568,380",0.92
+274,Camera 0,水泡甲虫,"446,42,568,380",0.92
+275,Camera 0,水泡甲虫,"310,63,639,616",0.74
+276,Camera 0,水泡甲虫,"309,64,639,616",0.74
+277,Camera 0,水泡甲虫,"309,62,639,616",0.74
+278,Camera 0,水泡甲虫,"309,62,639,616",0.74
+279,Camera 0,水泡甲虫,"309,62,639,616",0.74
+280,Camera 0,水泡甲虫,"308,115,633,618",0.72
+281,Camera 0,水泡甲虫,"308,115,633,618",0.72
+282,Camera 0,水泡甲虫,"308,115,633,618",0.72
+283,Camera 0,水泡甲虫,"308,115,633,618",0.72
+284,Camera 0,水泡甲虫,"308,115,633,618",0.72
+285,Camera 0,水泡甲虫,"312,132,622,612",0.75
+286,Camera 0,水泡甲虫,"312,132,622,612",0.75
+287,Camera 0,水泡甲虫,"313,132,623,612",0.75
+288,Camera 0,水泡甲虫,"313,132,623,612",0.75
+289,Camera 0,水泡甲虫,"313,132,623,612",0.75
+290,Camera 0,水泡甲虫,"310,131,621,616",0.75
+291,Camera 0,水泡甲虫,"310,131,621,616",0.74
+292,Camera 0,水泡甲虫,"309,131,621,616",0.74
+293,Camera 0,水泡甲虫,"310,131,621,616",0.74
+294,Camera 0,水泡甲虫,"309,131,621,616",0.74
+295,Camera 0,水泡甲虫,"305,131,635,640",0.78
+296,Camera 0,水泡甲虫,"305,130,635,640",0.78
+297,Camera 0,水泡甲虫,"305,131,635,640",0.78
+298,Camera 0,水泡甲虫,"305,131,635,640",0.78
+299,Camera 0,水泡甲虫,"305,129,634,640",0.77
+300,Camera 0,水泡甲虫,"312,129,626,615",0.74
+301,Camera 0,水泡甲虫,"312,130,626,616",0.74
+302,Camera 0,水泡甲虫,"312,130,626,616",0.74
+303,Camera 0,水泡甲虫,"312,130,626,616",0.74
+304,Camera 0,水泡甲虫,"312,130,626,616",0.74
+305,Camera 0,水泡甲虫,"350,106,453,486",0.89
+306,Camera 0,水泡甲虫,"350,106,453,486",0.89
+307,Camera 0,水泡甲虫,"350,106,453,486",0.89
+308,Camera 0,水泡甲虫,"350,106,453,486",0.89
+309,Camera 0,水泡甲虫,"350,106,453,486",0.89
+310,Camera 0,水泡甲虫,"350,109,453,494",0.89
+311,Camera 0,水泡甲虫,"350,109,453,494",0.89
+312,Camera 0,水泡甲虫,"350,109,453,494",0.89
+313,Camera 0,水泡甲虫,"350,109,453,494",0.89
+314,Camera 0,水泡甲虫,"350,109,453,494",0.89
+315,Camera 0,水泡甲虫,"352,104,454,484",0.89
+316,Camera 0,水泡甲虫,"352,104,454,484",0.89
+317,Camera 0,水泡甲虫,"352,104,454,484",0.89
+318,Camera 0,水泡甲虫,"352,104,454,484",0.89
+319,Camera 0,水泡甲虫,"352,104,454,484",0.89
+320,Camera 0,水泡甲虫,"354,105,456,485",0.87
+321,Camera 0,水泡甲虫,"354,105,456,485",0.87
+322,Camera 0,水泡甲虫,"354,105,456,485",0.87
+323,Camera 0,水泡甲虫,"354,105,456,485",0.87
+324,Camera 0,水泡甲虫,"354,105,456,485",0.87
+325,Camera 0,水泡甲虫,"352,106,454,486",0.89
+326,Camera 0,水泡甲虫,"352,106,454,486",0.89
+327,Camera 0,水泡甲虫,"352,106,454,486",0.89
+328,Camera 0,水泡甲虫,"352,106,454,486",0.89
+329,Camera 0,水泡甲虫,"352,106,454,486",0.89
+330,Camera 0,水泡甲虫,"348,108,451,492",0.88
+331,Camera 0,水泡甲虫,"348,109,451,492",0.88
+332,Camera 0,水泡甲虫,"348,109,451,492",0.88
+333,Camera 0,水泡甲虫,"348,109,451,492",0.88
+334,Camera 0,水泡甲虫,"348,109,451,492",0.88
+335,Camera 0,菜粉蝶,"400,139,528,478",0.93
+336,Camera 0,菜粉蝶,"400,139,528,478",0.93
+337,Camera 0,菜粉蝶,"400,139,528,478",0.93
+338,Camera 0,菜粉蝶,"400,139,528,478",0.93
+339,Camera 0,菜粉蝶,"400,139,528,478",0.93
+340,Camera 0,菜粉蝶,"400,138,530,476",0.93
+341,Camera 0,菜粉蝶,"400,138,530,476",0.93
+342,Camera 0,菜粉蝶,"400,138,530,476",0.93
+343,Camera 0,菜粉蝶,"400,138,530,476",0.93
+344,Camera 0,菜粉蝶,"400,138,530,476",0.93
+345,Camera 0,菜粉蝶,"398,142,525,483",0.92
+346,Camera 0,菜粉蝶,"398,142,525,483",0.92
+347,Camera 0,菜粉蝶,"398,142,525,483",0.92
+348,Camera 0,菜粉蝶,"398,142,525,483",0.92
+349,Camera 0,菜粉蝶,"398,142,525,483",0.92
+350,Camera 0,菜粉蝶,"400,139,526,479",0.93
+351,Camera 0,菜粉蝶,"400,139,526,479",0.93
+352,Camera 0,菜粉蝶,"400,139,526,479",0.93
+353,Camera 0,菜粉蝶,"400,139,526,479",0.93
+354,Camera 0,菜粉蝶,"400,139,526,479",0.93
+355,Camera 0,菜粉蝶,"400,140,527,480",0.93
+356,Camera 0,菜粉蝶,"400,140,527,480",0.93
+357,Camera 0,菜粉蝶,"400,140,527,480",0.93
+358,Camera 0,菜粉蝶,"400,140,527,480",0.93
+359,Camera 0,菜粉蝶,"400,140,527,480",0.93
+360,Camera 0,菜粉蝶,"400,134,528,474",0.93
+361,Camera 0,菜粉蝶,"400,134,528,474",0.93
+362,Camera 0,菜粉蝶,"400,134,528,474",0.93
+363,Camera 0,菜粉蝶,"400,134,528,474",0.93
+364,Camera 0,菜粉蝶,"400,134,528,474",0.93
+365,Camera 0,小菜蛾,"355,40,544,568",0.91
+366,Camera 0,小菜蛾,"355,40,544,568",0.91
+367,Camera 0,小菜蛾,"355,40,544,568",0.91
+368,Camera 0,小菜蛾,"355,40,544,568",0.91
+369,Camera 0,小菜蛾,"355,40,544,568",0.91
+370,Camera 0,小菜蛾,"355,52,538,577",0.90
+371,Camera 0,小菜蛾,"355,52,538,578",0.90
+372,Camera 0,小菜蛾,"355,52,539,578",0.90
+373,Camera 0,小菜蛾,"355,52,539,578",0.90
+374,Camera 0,小菜蛾,"355,52,539,578",0.90
+375,Camera 0,小菜蛾,"358,53,539,578",0.90
+376,Camera 0,小菜蛾,"358,53,539,578",0.90
+377,Camera 0,小菜蛾,"358,53,539,578",0.90
+378,Camera 0,小菜蛾,"358,53,539,578",0.90
+379,Camera 0,小菜蛾,"358,53,539,578",0.90
+380,Camera 0,小菜蛾,"354,50,539,575",0.90
+381,Camera 0,小菜蛾,"354,50,539,575",0.90
+382,Camera 0,小菜蛾,"354,50,539,575",0.90
+383,Camera 0,小菜蛾,"354,50,539,575",0.90
+384,Camera 0,小菜蛾,"354,50,539,575",0.90
+385,Camera 0,小菜蛾,"360,54,540,578",0.89
+386,Camera 0,小菜蛾,"360,54,540,578",0.89
+387,Camera 0,小菜蛾,"360,54,540,578",0.89
+388,Camera 0,小菜蛾,"360,54,540,578",0.89
+389,Camera 0,小菜蛾,"360,54,540,578",0.89
+390,Camera 0,小菜蛾,"355,49,542,575",0.90
+391,Camera 0,小菜蛾,"355,49,542,574",0.90
+392,Camera 0,小菜蛾,"355,49,542,574",0.90
+393,Camera 0,小菜蛾,"355,49,542,575",0.90
+394,Camera 0,小菜蛾,"355,49,542,574",0.90
+395,Camera 0,叶网蛾,"400,71,502,628",0.71
+396,Camera 0,叶网蛾,"400,71,502,628",0.71
+397,Camera 0,叶网蛾,"400,71,502,628",0.71
+398,Camera 0,叶网蛾,"400,71,502,628",0.71
+399,Camera 0,叶网蛾,"400,71,502,628",0.71
+400,Camera 0,叶网蛾,"399,71,501,629",0.61
+401,Camera 0,叶网蛾,"399,71,501,629",0.61
+402,Camera 0,叶网蛾,"399,70,501,629",0.61
+403,Camera 0,叶网蛾,"399,70,501,629",0.61
+404,Camera 0,叶网蛾,"399,70,501,629",0.61
+405,Camera 0,叶网蛾,"396,86,498,619",0.72
+406,Camera 0,叶网蛾,"396,86,498,619",0.72
+407,Camera 0,叶网蛾,"396,86,499,619",0.72
+408,Camera 0,叶网蛾,"396,86,499,619",0.72
+409,Camera 0,叶网蛾,"396,86,499,619",0.72
+410,Camera 0,叶网蛾,"400,62,502,628",0.70
+411,Camera 0,叶网蛾,"400,62,502,628",0.69
+412,Camera 0,叶网蛾,"400,62,502,628",0.70
+413,Camera 0,叶网蛾,"400,62,502,628",0.69
+414,Camera 0,叶网蛾,"400,62,502,628",0.69
+415,Camera 0,叶网蛾,"396,67,499,631",0.74
+416,Camera 0,叶网蛾,"396,67,499,631",0.74
+417,Camera 0,叶网蛾,"396,67,499,631",0.74
+418,Camera 0,叶网蛾,"396,67,499,631",0.74
+419,Camera 0,叶网蛾,"397,66,499,631",0.74
+420,Camera 0,叶网蛾,"401,71,502,622",0.63
+421,Camera 0,叶网蛾,"401,71,502,622",0.63
+422,Camera 0,叶网蛾,"401,71,502,622",0.63
+423,Camera 0,叶网蛾,"401,71,502,622",0.63
+424,Camera 0,叶网蛾,"401,71,502,622",0.63
+425,Camera 0,茄果螟,"393,175,516,339",0.85
+426,Camera 0,茄果螟,"393,174,516,339",0.85
+427,Camera 0,茄果螟,"393,175,516,339",0.85
+428,Camera 0,茄果螟,"393,175,516,339",0.85
+429,Camera 0,茄果螟,"393,175,516,339",0.85
+430,Camera 0,茄果螟,"396,169,517,334",0.84
+431,Camera 0,茄果螟,"396,165,517,334",0.86
+432,Camera 0,茄果螟,"396,165,517,334",0.85
+433,Camera 0,茄果螟,"396,165,517,334",0.85
+434,Camera 0,茄果螟,"396,165,517,334",0.85
+435,Camera 0,茄果螟,"394,180,517,338",0.86
+436,Camera 0,茄果螟,"394,180,516,338",0.86
+437,Camera 0,茄果螟,"394,180,516,338",0.86
+438,Camera 0,茄果螟,"394,180,516,338",0.86
+439,Camera 0,茄果螟,"394,180,516,338",0.86
+440,Camera 0,茄果螟,"396,177,518,340",0.87
+441,Camera 0,茄果螟,"396,177,518,340",0.87
+442,Camera 0,茄果螟,"396,177,518,340",0.87
+443,Camera 0,茄果螟,"396,178,518,340",0.88
+444,Camera 0,茄果螟,"396,178,518,340",0.88
+445,Camera 0,茄果螟,"391,173,513,334",0.85
+446,Camera 0,茄果螟,"391,173,513,334",0.85
+447,Camera 0,茄果螟,"391,172,513,334",0.85
+448,Camera 0,茄果螟,"391,172,513,334",0.85
+449,Camera 0,茄果螟,"391,172,513,334",0.85
+450,Camera 0,茄果螟,"396,165,518,331",0.90
+451,Camera 0,茄果螟,"396,165,518,331",0.90
+452,Camera 0,茄果螟,"396,165,518,331",0.90
+453,Camera 0,茄果螟,"396,165,518,331",0.90
+454,Camera 0,茄果螟,"396,165,518,331",0.90
+455,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+456,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+457,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+458,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+459,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+460,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+461,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+462,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+463,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+464,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+465,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+466,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+467,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+468,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+469,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+470,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+471,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+472,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+473,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"211,140,444,480",0.94
+474,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"208,134,446,484",0.94
+475,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"200,115,455,502",0.93
+476,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"182,65,478,547",0.87
+477,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"0,5,30,158",0.45
+478,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,菜粉蝶,"138,5,464,638",0.88
+479,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,粉虱,"0,0,634,638",0.91
+480,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"147,1,422,640",0.70
+481,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"188,11,398,639",0.85
+482,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"206,91,394,631",0.86
+483,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+484,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+485,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+486,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+487,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+488,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+489,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+490,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+491,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+492,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+493,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+494,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"208,93,397,625",0.86
+495,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"196,91,388,625",0.87
+496,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"154,91,342,626",0.88
+497,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,叶网蛾,"0,131,91,627",0.35
+498,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,根蛆,"0,115,90,631",0.28
+499,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"435,358,638,542",0.86
+500,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"20,128,438,395",0.73
+501,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"377,315,585,563",0.90
+502,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"83,89,439,458",0.87
+503,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"365,313,574,564",0.90
+504,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"65,83,428,459",0.86
+505,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"365,313,574,564",0.90
+506,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"64,91,427,456",0.86
+507,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"365,313,574,564",0.90
+508,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"64,91,427,456",0.86
+509,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"366,313,574,564",0.90
+510,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"66,83,429,459",0.87
+511,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"366,310,574,565",0.88
+512,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,禾谷缢管蚜,"61,83,429,456",0.83
+513,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,灰象甲,"291,185,418,322",0.51
+514,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"203,184,417,334",0.93
+515,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"202,182,417,336",0.94
+516,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"202,180,418,338",0.95
+517,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,180,419,338",0.95
+518,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,179,419,338",0.95
+519,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,179,419,338",0.95
+520,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+521,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+522,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+523,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+524,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+525,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+526,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,418,337",0.95
+527,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"200,180,419,337",0.95
+528,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,179,419,338",0.95
+529,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,178,417,338",0.95
+530,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"201,174,416,336",0.92
+531,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,茄果螟,"199,168,419,342",0.53
+532,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,白粉虱,"2,0,637,638",0.67
+533,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,白粉虱,"7,1,636,638",0.86
+534,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,白粉虱,"201,69,458,612",0.74
+535,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"164,62,464,581",0.79
+536,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"128,50,468,572",0.92
+537,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"133,50,462,578",0.90
+538,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+539,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+540,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+541,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+542,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+543,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+544,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+545,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+546,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,463,568",0.89
+547,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"132,47,464,570",0.89
+548,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"131,49,467,578",0.89
+549,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"128,56,464,542",0.42
+550,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"135,111,316,506",0.62
+551,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"130,103,348,492",0.79
+552,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"130,113,308,488",0.91
+553,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"129,113,310,488",0.92
+554,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"128,114,312,487",0.93
+555,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"128,113,311,487",0.94
+556,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,486",0.94
+557,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,486",0.94
+558,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+559,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+560,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+561,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+562,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+563,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+564,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+565,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,310,487",0.94
+566,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+567,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+568,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+569,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+570,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+571,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,487",0.94
+572,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,486",0.94
+573,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"127,113,311,486",0.94
+574,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"0,124,89,452",0.83
+575,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"178,265,395,638",0.94
+576,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"75,62,397,492",0.88
+577,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"16,7,475,492",0.85
+578,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,0,586,475",0.90
+579,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,0,633,480",0.71
+580,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,小菜蛾,"29,50,639,639",0.27
+581,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,20,638,631",0.81
+582,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,2,640,635",0.83
+583,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,1,637,639",0.88
+584,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"3,13,630,639",0.88
+585,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,99,630,635",0.85
+586,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,113,610,635",0.82
+587,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,101,586,638",0.81
+588,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,102,587,638",0.81
+589,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,102,587,638",0.81
+590,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+591,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+592,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+593,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+594,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+595,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+596,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,103,586,638",0.81
+597,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,102,587,638",0.81
+598,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,106,597,638",0.81
+599,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,116,610,635",0.82
+600,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,91,591,638",0.79
+601,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"2,107,548,637",0.78
+602,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"3,80,511,637",0.78
+603,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"0,59,454,637",0.77
+604,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"1,1,515,637",0.77
+605,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"322,36,507,376",0.93
+606,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"0,150,307,637",0.87
+607,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"308,38,507,375",0.95
+608,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"0,226,200,624",0.79
+609,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"305,38,507,376",0.95
+610,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"294,37,509,376",0.95
+611,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,白粉虱,"61,552,204,639",0.41
+612,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"289,37,509,376",0.95
+613,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"283,37,509,376",0.95
+614,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"280,36,509,376",0.95
+615,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+616,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+617,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+618,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+619,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+620,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+621,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+622,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+623,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+624,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+625,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+626,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+627,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+628,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95
+629,L:/PythonCode/PySideCode/YOLOv8v5Code/InsectPestDetection/test_media/害虫检测.mp4,水泡甲虫,"279,36,509,376",0.95

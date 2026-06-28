@@ -1,0 +1,138 @@
+问题：IMcore 包不存在
+报错： Could not find a version that satisfy the requirement IMcore==0.2.7
+原因： IMcore 包已从 PyPI 下架，无法安装
+解决： 从 requirements.txt 中删除 IMcore==0.2.7 这一行
+
+问题：QtFusion 依赖 IMcore
+报错： ModuleNotFoundError: No module named 'IMcore'
+原因： QtFusion 库的代码中直接使用了 IMcore 模块
+解决： 创建一个假的 IMcore 包（空包，只满足导入）
+
+问题：缺少 QtFusion 模块
+报错： ModuleNotFoundError: No module named 'QtFusion'
+解决： 安装 QtFusion
+pip install QtFusion==0.5.4 --no-deps
+
+问题：IMcore 包不存在
+报错： Could not find a version that satisfies the requirement IMcore==0.2.7
+解决： 从 requirements.txt 删除 IMcore 那一行
+
+问题4：QtFusion 依赖 IMcore（核心问题）
+报错： ModuleNotFoundError: No module named 'IMcore'
+解决： 创建假的 IMcore 包，包含以下文件：
+目录结构：
+InsectPestDetection/IMcore/
+├── setup.py
+└── IMcore/
+    ├── __init__.py
+    ├── IMencode.py
+    ├── IMtrans.py
+    ├── IMwidget.py
+    ├── IMextension.py
+    ├── IMsets.py
+    ├── IMplots.py
+    └── IMprocessor.py
+各文件内容：
+
+setup.py
+from setuptools import setup
+setup(name='IMcore', version='0.2.7')
+
+init.py
+import random
+import string
+from PySide6.QtGui import QPixmap, QPainter, QColor, QFont
+
+def imRandCode(width=120, height=40, length=4, characters=None):
+    if characters is None:
+        characters = string.ascii_uppercase + string.digits
+    random_str = ''.join(random.choices(characters, k=length))
+    pixmap = QPixmap(width, height)
+    pixmap.fill(QColor(255, 255, 255))
+    painter = QPainter(pixmap)
+    font = QFont("Arial", 20)
+    painter.setFont(font)
+    for i, char in enumerate(random_str):
+        color = QColor(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+        painter.setPen(color)
+        painter.drawText(10 + i * 25, 30, char)
+    painter.end()
+    return pixmap, random_str
+
+IMencode.py
+from . import imRandCode
+
+IMtrans.py
+def ToQtPixmap(*args, **kwargs): pass
+def scalePixmap(*args, **kwargs): pass
+def setPixmap(*args, **kwargs): pass
+
+IMwidget.py
+from PySide6.QtWidgets import QDialog, QMainWindow
+
+class IMDialog(QDialog):
+    def set_tab_order(self, *widgets):
+        pass
+
+class IMainWindow(QMainWindow):
+    def setUiStyle(self, windowFlag=True, transBackFlag=True):
+        pass
+
+IMextension.py
+from PySide6.QtWidgets import QLabel, QMessageBox, QMainWindow
+
+class IMageLabel(QLabel):
+    pass
+
+class IMessageBox(QMessageBox):
+    pass
+
+class IMExtWindow(QMainWindow):
+    pass
+
+IMsets.py
+def loadStyles(*args, **kwargs): pass
+def loadSettings(*args, **kwargs): pass
+
+IMplots.py
+def imHBar(*args, **kwargs): pass
+def imVBar(*args, **kwargs): pass
+def imRectBox(*args, **kwargs): pass
+def imVBarPer(*args, **kwargs): pass
+def imRectEdge(*args, **kwargs): pass
+
+IMprocessor.py
+from PySide6.QtCore import QObject, Signal, QTimer
+
+class IMediaSignals(QObject):
+    frameReady = Signal(object)
+    mediaOpened = Signal()
+    mediaFailed = Signal()
+    mediaClosed = Signal()
+    stopOtherActivities = Signal()
+
+    def __init__(self, device=None, fps=30, parent=None):
+        super().__init__(parent)
+        self.timer_media = QTimer()
+        self.timer_media.setInterval(int(1000 / fps))
+
+class ImageSignals(QObject):
+    frameReady = Signal(object)
+    imageOpened = Signal()
+    imageClosed = Signal()
+    imageFailed = Signal()
+    stopOtherActivities = Signal()
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+安装命令：
+cd "d:/VScode project/病虫害/InsectPestDetection/IMcore"
+D:/python/envs/yolov5/python.exe -m pip install . --force-reinstall --no-deps
+
+最终运行步骤
+# 1. 进入项目目录
+cd "d:/VScode project/病虫害/InsectPestDetection"
+# 2. 运行程序
+D:/python/envs/yolov5/python.exe run_main_login.py
+
+

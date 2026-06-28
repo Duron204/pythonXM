@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>身份证号码识别系统</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📇 身份证号码识别系统</h1>
+            <p class="subtitle">基于 OpenCV + Tesseract OCR 的身份证号码自动识别</p>
+        </header>
+
+        <main>
+            <!-- 上传区域 -->
+            <section class="upload-section">
+                <div class="upload-card" id="dropZone">
+                    <div class="upload-icon">📤</div>
+                    <h3>上传身份证图片</h3>
+                    <p class="upload-hint">拖拽图片到此处，或点击选择文件</p>
+                    <p class="upload-desc">支持 JPG / PNG 格式，建议图片清晰可见</p>
+                    <input type="file" id="fileInput" accept="image/*" hidden>
+                    <button class="btn btn-primary" id="selectBtn">选择图片</button>
+                    <div class="file-info" id="fileInfo" style="display:none;">
+                        <span id="fileName"></span>
+                        <button class="btn btn-sm" id="changeBtn">重新选择</button>
+                    </div>
+                </div>
+
+                <div class="real-id-card">
+                    <label for="realId">真实号码（可选，用于对比）</label>
+                    <input type="text" id="realId" placeholder="输入真实身份证号码" maxlength="18">
+                </div>
+
+                <button class="btn btn-primary btn-large" id="recognizeBtn" disabled>
+                    🔍 开始识别
+                </button>
+            </section>
+
+            <!-- 加载状态 -->
+            <section class="loading-section" id="loadingSection" style="display:none;">
+                <div class="spinner"></div>
+                <p>正在识别中，请稍候...</p>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </section>
+
+            <!-- 结果区域 -->
+            <section class="result-section" id="resultSection" style="display:none;">
+                <div class="result-header">
+                    <h2>📋 识别结果</h2>
+                </div>
+
+                <div class="result-grid">
+                    <div class="result-card" id="realIdCard" style="display:none;">
+                        <div class="result-label">真实号码</div>
+                        <div class="result-value" id="realIdValue"></div>
+                    </div>
+                    <div class="result-card highlight">
+                        <div class="result-label">识别号码</div>
+                        <div class="result-value" id="recognizedValue"></div>
+                    </div>
+                </div>
+
+                <div class="match-result" id="matchResult" style="display:none;"></div>
+
+                <!-- 处理流水线 -->
+                <h3 class="pipeline-title">🔄 图像处理流水线</h3>
+                <div class="pipeline" id="pipeline">
+                    <div class="pipeline-item" data-step="original">
+                        <div class="step-label">原始图像</div>
+                        <div class="step-img">
+                            <img src="" alt="原始图像">
+                        </div>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-item" data-step="gray">
+                        <div class="step-label">灰度图</div>
+                        <div class="step-img">
+                            <img src="" alt="灰度图">
+                        </div>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-item" data-step="binary">
+                        <div class="step-label">二值图</div>
+                        <div class="step-img">
+                            <img src="" alt="二值图">
+                        </div>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-item" data-step="dilation">
+                        <div class="step-label">膨胀图</div>
+                        <div class="step-img">
+                            <img src="" alt="膨胀图">
+                        </div>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-item" data-step="contours">
+                        <div class="step-label">轮廓标记</div>
+                        <div class="step-img">
+                            <img src="" alt="轮廓标记">
+                        </div>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-item" data-step="number">
+                        <div class="step-label">号码区域</div>
+                        <div class="step-img">
+                            <img src="" alt="号码区域">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 移动端流水线（纵向布局） -->
+                <div class="pipeline-mobile" id="pipelineMobile" style="display:none;">
+                    <div class="mobile-step" data-step="original">
+                        <div class="step-label">① 原始图像</div>
+                        <img src="" alt="原始图像">
+                    </div>
+                    <div class="mobile-step" data-step="gray">
+                        <div class="step-label">② 灰度图</div>
+                        <img src="" alt="灰度图">
+                    </div>
+                    <div class="mobile-step" data-step="binary">
+                        <div class="step-label">③ 二值图</div>
+                        <img src="" alt="二值图">
+                    </div>
+                    <div class="mobile-step" data-step="dilation">
+                        <div class="step-label">④ 膨胀图</div>
+                        <img src="" alt="膨胀图">
+                    </div>
+                    <div class="mobile-step" data-step="contours">
+                        <div class="step-label">⑤ 轮廓标记</div>
+                        <img src="" alt="轮廓标记">
+                    </div>
+                    <div class="mobile-step" data-step="number">
+                        <div class="step-label">⑥ 号码区域</div>
+                        <img src="" alt="号码区域">
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn btn-secondary" id="resetBtn">🔄 重新识别</button>
+                    <button class="btn btn-outline" id="testBtn">使用测试图片</button>
+                </div>
+            </section>
+
+            <!-- 错误提示 -->
+            <section class="error-section" id="errorSection" style="display:none;">
+                <div class="error-card">
+                    <div class="error-icon">⚠️</div>
+                    <h3>识别失败</h3>
+                    <p id="errorMessage"></p>
+                    <button class="btn btn-secondary" id="errorResetBtn">重新上传</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Powered by OpenCV + Tesseract OCR | Flask Web</p>
+        </footer>
+    </div>
+
+    <script>
+        // ========== DOM 引用 ==========
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const selectBtn = document.getElementById('selectBtn');
+        const changeBtn = document.getElementById('changeBtn');
+        const fileInfo = document.getElementById('fileInfo');
+        const fileName = document.getElementById('fileName');
+        const realIdInput = document.getElementById('realId');
+        const recognizeBtn = document.getElementById('recognizeBtn');
+        const loadingSection = document.getElementById('loadingSection');
+        const resultSection = document.getElementById('resultSection');
+        const errorSection = document.getElementById('errorSection');
+        const errorMessage = document.getElementById('errorMessage');
+        const resetBtn = document.getElementById('resetBtn');
+        const errorResetBtn = document.getElementById('errorResetBtn');
+        const testBtn = document.getElementById('testBtn');
+
+        // ========== 状态 ==========
+        let selectedFile = null;
+
+        // ========== 上传区域交互 ==========
+        selectBtn.addEventListener('click', () => fileInput.click());
+        changeBtn.addEventListener('click', () => fileInput.click());
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                handleFileSelect(e.target.files[0]);
+            }
+        });
+
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('drag-over');
+        });
+
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.classList.remove('drag-over');
+        });
+
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('drag-over');
+            if (e.dataTransfer.files.length > 0) {
+                handleFileSelect(e.dataTransfer.files[0]);
+            }
+        });
+
+        function handleFileSelect(file) {
+            if (!file.type.startsWith('image/')) {
+                alert('请选择图片文件');
+                return;
+            }
+            selectedFile = file;
+            fileName.textContent = file.name + ' (' + (file.size / 1024).toFixed(1) + ' KB)';
+            document.querySelector('.upload-icon').textContent = '✅';
+            document.querySelector('.upload-icon').style.color = '#22c55e';
+            fileInfo.style.display = 'block';
+            selectBtn.style.display = 'none';
+            recognizeBtn.disabled = false;
+        }
+
+        // ========== 识别逻辑 ==========
+        recognizeBtn.addEventListener('click', recognizeImage);
+        resetBtn.addEventListener('click', resetAll);
+        errorResetBtn.addEventListener('click', resetAll);
+
+        async function recognizeImage() {
+            if (!selectedFile) return;
+
+            // 显示加载
+            recognizeBtn.disabled = true;
+            resultSection.style.display = 'none';
+            errorSection.style.display = 'none';
+            loadingSection.style.display = 'block';
+
+            const formData = new FormData();
+            formData.append('image', selectedFile);
+            formData.append('real_id', realIdInput.value.trim());
+
+            try {
+                const response = await fetch('/recognize', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                loadingSection.style.display = 'none';
+
+                if (!response.ok) {
+                    showError(data.error || '识别失败，请重试');
+                    return;
+                }
+
+                showResult(data);
+            } catch (err) {
+                loadingSection.style.display = 'none';
+                showError('网络错误：' + err.message);
+            }
+        }
+
+        function showResult(data) {
+            resultSection.style.display = 'block';
+
+            // 显示识别号码
+            document.getElementById('recognizedValue').textContent = data.recognized || '未识别到号码';
+
+            // 显示真实号码（如果有）
+            const realIdCard = document.getElementById('realIdCard');
+            if (data.real_id) {
+                realIdCard.style.display = 'block';
+                document.getElementById('realIdValue').textContent = data.real_id;
+            } else {
+                realIdCard.style.display = 'none';
+            }
+
+            // 号码匹配对比
+            const matchResult = document.getElementById('matchResult');
+            if (data.real_id && data.recognized) {
+                matchResult.style.display = 'block';
+                const cleanRecognized = data.recognized.replace(/\s/g, '');
+                if (data.real_id === cleanRecognized) {
+                    matchResult.className = 'match-result match-success';
+                    matchResult.innerHTML = '✅ 识别结果与真实号码完全匹配！';
+                } else {
+                    matchResult.className = 'match-result match-fail';
+                    matchResult.innerHTML = '❌ 识别结果与真实号码不一致';
+                }
+            } else {
+                matchResult.style.display = 'none';
+            }
+
+            // 更新流水线图片
+            const images = data.images || {};
+            const stepOrder = ['original', 'gray', 'binary', 'dilation', 'contours', 'number'];
+            const stepLabels = {
+                original: '原始图像',
+                gray: '灰度图',
+                binary: '二值图',
+                dilation: '膨胀图',
+                contours: '轮廓标记',
+                number: '号码区域'
+            };
+
+            // 桌面端流水线
+            stepOrder.forEach(step => {
+                const item = document.querySelector(`.pipeline-item[data-step="${step}"]`);
+                if (item) {
+                    const img = item.querySelector('img');
+                    if (images[step]) {
+                        img.src = images[step];
+                        item.title = stepLabels[step];
+                    }
+                }
+            });
+
+            // 移动端流水线
+            stepOrder.forEach(step => {
+                const item = document.querySelector(`.mobile-step[data-step="${step}"]`);
+                if (item) {
+                    const img = item.querySelector('img');
+                    if (images[step]) {
+                        img.src = images[step];
+                    }
+                }
+            });
+
+            // 滚动到结果区域
+            resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            recognizeBtn.disabled = false;
+        }
+
+        function showError(message) {
+            errorSection.style.display = 'block';
+            errorMessage.textContent = message;
+            errorSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            recognizeBtn.disabled = false;
+        }
+
+        function resetAll() {
+            selectedFile = null;
+            fileInput.value = '';
+            resultSection.style.display = 'none';
+            errorSection.style.display = 'none';
+            loadingSection.style.display = 'none';
+            recognizeBtn.disabled = true;
+
+            document.querySelector('.upload-icon').textContent = '📤';
+            document.querySelector('.upload-icon').style.color = '';
+            fileInfo.style.display = 'none';
+            selectBtn.style.display = 'inline-flex';
+            realIdInput.value = '';
+
+            // 清空图片
+            document.querySelectorAll('.pipeline-item img, .mobile-step img').forEach(img => {
+                img.src = '';
+            });
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // ========== 测试图片 ==========
+        testBtn.addEventListener('click', async () => {
+            resetAll();
+            try {
+                const response = await fetch('/test');
+                const data = await response.json();
+                if (data.success) {
+                    selectedFile = new File([], data.test_file);
+                    // 构造一个模拟的测试请求
+                    const formData = new FormData();
+                    // 通过 fetch 获取测试图片再发送
+                    const imgResp = await fetch(data.test_url);
+                    const blob = await imgResp.blob();
+                    const testFile = new File([blob], 'sfz1.png', { type: 'image/png' });
+                    handleFileSelect(testFile);
+                    realIdInput.value = data.test_real_id;
+                    recognizeImage();
+                }
+            } catch (err) {
+                showError('测试失败：' + err.message);
+            }
+        });
+    </script>
+</body>
+</html>

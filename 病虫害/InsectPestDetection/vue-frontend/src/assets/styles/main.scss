@@ -1,0 +1,286 @@
+// ============================================
+// 绿色田园风格 - 自然清新
+// ============================================
+
+// 变量
+$primary-green: #4caf50;
+$primary-green-light: #66bb6a;
+$primary-green-dark: #388e3c;
+$primary-green-pale: #e8f5e9;
+$bg-white: #ffffff;
+$bg-light: #f1f8e9;
+$bg-cream: #fafdf6;
+$text-dark: #2e3d27;
+$text-gray: #5d7a4f;
+$text-light: #8aa67a;
+$border-light: #c8e6c9;
+$border-radius: 16px;
+$shadow-card: 0 8px 32px rgba(76, 175, 80, 0.1);
+$shadow-hover: 0 12px 40px rgba(76, 175, 80, 0.18);
+
+// 全局
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #f1f8e9 0%, #e8f5e9 100%);
+  color: $text-dark;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+// 通用容器
+.hex-grid-bg {
+  background: linear-gradient(135deg, #f1f8e9 0%, #e8f5e9 100%);
+}
+
+// 卡片样式
+.exo-card {
+  background: $bg-white;
+  border-radius: $border-radius;
+  box-shadow: $shadow-card;
+  border: 1px solid $border-light;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: $shadow-hover;
+    transform: translateY(-2px);
+  }
+}
+
+// 按钮样式
+.btn-exo {
+  background: $bg-white;
+  border: 1px solid $border-light;
+  border-radius: 12px;
+  padding: 10px 18px;
+  color: $text-dark;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  &:hover {
+    background: $primary-green;
+    border-color: $primary-green;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.3);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &.btn-active {
+    background: $primary-green;
+    border-color: $primary-green;
+    color: white;
+  }
+}
+
+.btn-primary-exo {
+  background: $primary-green;
+  border-color: $primary-green;
+  color: white;
+
+  &:hover {
+    background: $primary-green-light;
+    border-color: $primary-green-light;
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.4);
+  }
+}
+
+// 检测画面边框
+.detection-frame {
+  background: $bg-white;
+  border-radius: 20px;
+  border: 2px solid $border-light;
+  position: relative;
+  overflow: hidden;
+  box-shadow: $shadow-card;
+
+  .corner {
+    display: none;
+  }
+
+  .scan-line {
+    display: none;
+  }
+}
+
+// 圆形装饰
+.circle-decoration {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: $primary-green-pale;
+  position: absolute;
+  opacity: 0.6;
+
+  &.large {
+    width: 200px;
+    height: 200px;
+  }
+
+  &.small {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+// 叶子装饰
+.leaf-decoration {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: $primary-green-pale;
+  border-radius: 0 50% 50% 50%;
+  transform: rotate(45deg);
+  opacity: 0.3;
+}
+
+// 动画
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes sway {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+// Element Plus 覆盖样式
+.el-slider__runway {
+  background: $border-light !important;
+  height: 6px !important;
+  border-radius: 3px !important;
+}
+
+.el-slider__bar {
+  background: linear-gradient(90deg, $primary-green 0%, $primary-green-light 100%) !important;
+  height: 6px !important;
+  border-radius: 3px !important;
+}
+
+.el-slider__button {
+  width: 18px !important;
+  height: 18px !important;
+  background: $primary-green !important;
+  border: 3px solid white !important;
+  border-radius: 50% !important;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3) !important;
+  transition: all 0.2s ease !important;
+
+  &:hover {
+    transform: scale(1.2) !important;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.5) !important;
+  }
+}
+
+.el-table {
+  --el-table-bg-color: #ffffff !important;
+  --el-table-tr-bg-color: #ffffff !important;
+  --el-table-header-bg-color: $primary-green-pale !important;
+  --el-table-row-hover-bg-color: rgba(76, 175, 80, 0.06) !important;
+  --el-table-text-color: $text-dark !important;
+  --el-table-header-text-color: $primary-green-dark !important;
+  --el-table-border-color: $border-light !important;
+  --el-table-current-row-bg-color: rgba(76, 175, 80, 0.1) !important;
+
+  th.el-table__cell {
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  td.el-table__cell {
+    font-size: 13px !important;
+    border-bottom: 1px solid #e8f5e9 !important;
+  }
+}
+
+.el-input__wrapper {
+  background: $primary-green-pale !important;
+  border: 2px solid transparent !important;
+  box-shadow: none !important;
+  border-radius: 12px !important;
+  transition: all 0.2s ease !important;
+
+  &:hover {
+    background: #d7ecd8 !important;
+  }
+
+  &.is-focus {
+    border-color: $primary-green !important;
+    background: white !important;
+    box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.15) !important;
+  }
+}
+
+.el-input__inner {
+  color: $text-dark !important;
+  font-size: 14px !important;
+
+  &::placeholder {
+    color: $text-light !important;
+  }
+}
+
+.el-select__wrapper {
+  background: $primary-green-pale !important;
+  border: 2px solid transparent !important;
+  box-shadow: none !important;
+  border-radius: 12px !important;
+
+  &:hover {
+    background: #d7ecd8 !important;
+  }
+}
+
+.el-progress__text {
+  color: $primary-green !important;
+  font-weight: 600 !important;
+}
+
+// 滚动条
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $border-light;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $primary-green;
+}

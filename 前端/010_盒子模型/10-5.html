@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>圆角边框的设置</title>
+    <style type="text/css">
+        #box1 {
+            width: 300px;
+            height: 100px;
+            border: 3px solid #00f;
+            border-radius: 50px 20px 40px 15px/30px 10px 60px 25px;
+            /* 左上角圆角水平半径为50像素，垂直半径为30像素
+            右上角圆角水平半径为20像素，垂直半径为10像素
+            右下角圆角水平半径为40像素，垂直半径为60像素
+            左下角圆角水平半径为15像素，垂直半径为25像素 */
+        }
+        #box2 {
+            width: 300px;
+            height: 100px;
+            border: 3px solid #00f;
+            border-radius: 50px;
+            padding: 30px 50px 90px 130px;
+            /* 四个角的水平半径和垂直半径都为50像素 */
+            /* border-radius: 50%;正方形改为圆形 */
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">设置圆角边框（不规则圆角）</div>
+    <p></p>
+    <div id="box2">设置圆角边框（统一圆角）</div>
+</body>
+</html>

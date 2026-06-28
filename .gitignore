@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtualenv
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vector store / 向量库
+vector_store/
+
+# Audio test files
+test_audio/
+
+# Env
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Large files (>100MB)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Claude memory
+.claude/

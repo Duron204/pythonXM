@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>视频播放器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .video-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        video {
+            width: 400px;
+            display: block;
+        }
+        .btn-group {
+            display: flex;
+            gap: 8px;
+        }
+        .btn-group button {
+            padding: 4px 8px;
+            border: 1px solid #999;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-box">
+        <video controls>
+            <source src="images/mov.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="btn-group">
+        <button>播放/暂停</button>
+        <button>放大</button>
+        <button>缩小</button>
+        <button>普通</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changetext(id) {
+            id.innerHTML = "鼠标未移开";//innerHTML属性用于设置或返回元素的内容。
+        }
+        function resettext(id) {
+            id.innerHTML = "鼠标已移开";
+        }
+    </script>
+</head>
+<body>
+    <span onmouseover="changetext(this)" onmouseout="resettext(this)">鼠标已移开</span>
+</body>
+</html>
